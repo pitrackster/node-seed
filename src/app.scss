@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf") format("ttf");
+}
+
+$font-stack: 'Roboto', sans-serif;
+$primary-color: #333;
+
+body {
+	font: 100% $font-stack;
+	color: $primary-color;	
+}

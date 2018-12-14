@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Webpack - Seed</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Hello!</h1>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+
+</body>
+
+</html>
